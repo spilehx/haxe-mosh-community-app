@@ -1,6 +1,4 @@
 import js.Browser;
-import js.html.ButtonElement;
-import js.html.DivElement;
 
 class Main {
 	static function main() {
@@ -18,31 +16,13 @@ class Main {
 		card.className = "card";
 
 		var title = document.createElement("h1");
-		title.textContent = "Hello from Haxe";
+		title.textContent = "HAXE-MOSH";
 
 		var message = document.createParagraphElement();
-		message.textContent = "This page was compiled from Haxe to JavaScript.";
-
-		var counter:DivElement = document.createDivElement();
-		counter.className = "counter";
-
-		var count = 0;
-		function updateCounter() {
-			counter.textContent = 'Clicks: $count';
-		}
-		updateCounter();
-
-		var button:ButtonElement = document.createButtonElement();
-		button.textContent = "Click me";
-		button.onclick = function(_) {
-			count++;
-			updateCounter();
-		};
+		message.textContent = "Let's make something together!";
 
 		card.appendChild(title);
 		card.appendChild(message);
-		card.appendChild(counter);
-		card.appendChild(button);
 		root.appendChild(card);
 	}
 }
