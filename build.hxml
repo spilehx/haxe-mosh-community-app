@@ -1,0 +1,15 @@
+## THIS FILE IS READ ONLY!
+
+## If you want to add other haxelibs contact us by:
+## raising an issue on github https://github.com/spilehx/haxe-mosh-community-app
+## or contact Spilehx on the haxe discord server.
+
+-lib haxeui-core
+-lib haxeui-html5
+
+-cp src
+-main Main
+-js ../PROJECT_OUTPUT/js/app.js
+
+## copy assets to dist folder
+--cmd cp -r ./assets/. ../PROJECT_OUTPUT/
