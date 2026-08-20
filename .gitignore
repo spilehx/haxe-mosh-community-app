@@ -1,1 +1,31 @@
-dist/
+## READ ONLY FILE - you cant edit this
+## I am limiting the files that can be added to keep everything stable.
+
+## If you want to add others contact us by:
+## raising an issue on github https://github.com/.spile/haxe-mosh-community-app
+## or contact .spile on the haxe discord server.
+
+
+# Ignore everything
+*
+
+# Allow required directories
+!assets/
+!assets/**/
+!src/
+
+# Allow root files
+!build.hxml
+!README.md
+
+# Allow all .hx files below src/
+!src/**/*.hx
+
+# Allow selected files below assets/
+!assets/**/*.css
+!assets/**/*.jpg
+!assets/**/*.png
+!assets/**/*.gif
+
+# Allow index.html
+!assets/index.html

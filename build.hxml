@@ -1,8 +1,8 @@
 ## THIS FILE IS READ ONLY!
 
 ## If you want to add other haxelibs contact us by:
-## raising an issue on github https://github.com/spilehx/haxe-mosh-community-app
-## or contact Spilehx on the haxe discord server.
+## raising an issue on github https://github.com/.spile/haxe-mosh-community-app
+## or contact .spile on the haxe discord server.
 
 -lib haxeui-core
 -lib haxeui-html5
