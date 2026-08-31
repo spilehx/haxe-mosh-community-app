@@ -6,6 +6,7 @@
 
 -lib haxeui-core
 -lib haxeui-html5
+-lib heaps
 
 -cp src
 -main Main
